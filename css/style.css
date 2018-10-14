@@ -476,12 +476,6 @@ h1, h2, h3
 				}
 	
 			
-
-#quotecont
-{
-	padding: 30px 0;
-}
-
 	#quotecont .owl-theme .owl-controls .owl-page span
 	{
 		background: #CCC;
@@ -498,20 +492,18 @@ h1, h2, h3
 			width: 100%;
 			padding-bottom: 56.25%; 
 			height: 0;
+			padding-top: 30px; 
+			overflow: hidden;
 		  }
 
-			.video{
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			bottom: 0;
-			right: 0;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+		  .iframe-container iframe,
+		  .iframe-container object,
+		  .iframe-container embed {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
 		  }
 
 		  #footercont .right-half {
@@ -600,7 +592,7 @@ h1, h2, h3
 and (min-device-width: 1024px) 
 and (max-device-width: 1366px) 
 and (orientation: portrait) 
-and (-webkit-min-device-pixel-ratio: 1.5) 
+and (-webkit-min-device-pixel-ratio: 2)
 {
 
 	body
@@ -735,6 +727,16 @@ and (-webkit-min-device-pixel-ratio: 1.5)
 			float: none;
 		}
 	
+		.iframe-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%; 
+			height: 0;
+			padding-top: 30px; 
+			overflow: hidden;
+			margin-top: 0% !important;
+		  }
+	
 }
 
 /* Landscape */
@@ -742,7 +744,7 @@ and (-webkit-min-device-pixel-ratio: 1.5)
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (-webkit-min-device-pixel-ratio: 2)
   { 
 
 	body
@@ -869,6 +871,16 @@ and (-webkit-min-device-pixel-ratio: 1.5)
 			{
 				font-size: 28px;
 			}
+
+			.iframe-container {
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;
+				padding-top: 30px; 
+				overflow: hidden;
+				margin-top: 0% !important;
+			  }
 
 }
 
@@ -1012,6 +1024,15 @@ and (-webkit-min-device-pixel-ratio: 1)
 			float: none;
 		}
 	
+		.iframe-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%; 
+			height: 0;
+			padding-top: 30px; 
+			overflow: hidden;
+		  }
+	
 }
 
 /* iPad Lanscape*/
@@ -1146,6 +1167,16 @@ and (-webkit-min-device-pixel-ratio: 1)
 			{
 				font-size: 28px;
 			}
+		
+			.iframe-container {
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;
+				padding-top: 30px; 
+				overflow: hidden;
+				margin-top: 50%;
+			  }
 
 }
 
@@ -1285,6 +1316,16 @@ and (orientation : portrait)
 		{
 			font-size: 28px;
 		}
+
+		.iframe-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%; 
+			height: 0;
+			padding-top: 30px; 
+			overflow: hidden;
+			margin-top: 50%;
+		  }
 	
 }
 
@@ -1414,6 +1455,16 @@ and (orientation : landscape)
 				font-size: 28px;
 			}
 
+			.iframe-container {
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;
+				padding-top: 30px; 
+				overflow: hidden;
+				margin-top: 15%;
+			  }
+
 }
 
 /* iPhone X Portrait*/
@@ -1521,7 +1572,7 @@ and (orientation : portrait) {
 	}
 
 	#daysleft {
-		font-size: 35px;
+		font-size: 33px;
 	}
 
 	.comingsoon h2 {
@@ -1548,6 +1599,16 @@ and (orientation : portrait) {
 		{
 			font-size: 28px;
 		}
+	
+		.iframe-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%; 
+			height: 0;
+			padding-top: 30px; 
+			overflow: hidden;
+			margin-top: 50%;
+		  }
 	
 }
 
@@ -1675,6 +1736,297 @@ and (orientation : landscape) {
 			{
 				font-size: 28px;
 			}
+		
+			.iframe-container {
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;
+				padding-top: 30px; 
+				overflow: hidden;
+				margin-top: 24%;
+			  }
+
+}
+
+/* iPhone 6,7,8 Portrait*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+	body
+	{
+		font-size: 21px;
+		line-height: 27px;
+	}
+
+	.fullwidth
+	{
+		width: 100%;
+		height: 710px;
+		padding: 60px 30px;
+		min-width: 280px;
+		overflow-x: hidden;
+	}
+
+		.fullwidth .bodycontainer
+		{
+			margin: 0 auto;
+			width: 100%;
+			height: 200px; 
+			max-width: 1000px;
+			text-align: center;
+		}
+
+	.gold img {
+		height: 23%;
+		width: 38%;
+		margin-bottom: -75px;
+		margin-right: 11px;
+		}
+
+	.learn img {
+		width: 156px;
+		height: 57px;
+		margin-top: 39px;
+	}
+	
+	h2 {
+		font-size: 23px; 
+	}
+
+	p {
+		font-size: 13px; 
+	}
+
+	#maincont {
+		color: #FFF;
+		margin-top: 9%;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.story p {
+		margin-bottom: -30px; 
+	}
+
+	#topcontainer h1
+	{
+		font-size: 34px;
+		line-height: 36px;
+		margin-top: 100px; 	
+	}
+
+		#topcontainer h1 span
+		{
+			font-size: 50px;
+			line-height: 50px;
+		}
+	
+	#countdown #countdowncont ul#countscript li
+	{
+		padding: 6px 0;
+	}
+	
+		#countdown #countdowncont ul#countscript li span
+		{
+			font-size: 62px;
+			line-height: 62px;
+		}
+
+		#countdown #countdowncont ul#countscript li p
+		{
+			font-size: 16px;
+			line-height: 16px;
+		}
+		
+	#maincont #signupform
+	{
+		margin: 0 auto 20px auto;
+		width: 100%;
+	}
+	
+	#quotecont
+	{
+		padding: 5px 0;
+	}
+
+	#daysleft {
+		font-size: 33px;
+	}
+
+	.comingsoon h2 {
+		font-size: 50px; 
+	}
+
+	#footercont .right-half {
+		position: initial;
+		height: 100%;
+		margin-left: 111px;
+		margin-top: -1px;
+		text-align: center;
+		color: white;
+		font-size: larger;
+		font-family: 'bebas_neuebold', sans-serif;
+	}
+	
+	#footercont #socialmedia ul li
+	{
+		margin: 0 5px;
+	}
+	
+		#footercont #socialmedia ul li a
+		{
+			font-size: 28px;
+		}
+	
+		.iframe-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%; 
+			height: 0;
+			padding-top: 30px; 
+			overflow: hidden;
+			margin-top: 76%;
+		  }
+	
+}
+
+/* iPhone 6,7,8 Landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) 
+{ 
+
+	body
+	{
+		font-size: 21px;
+		line-height: 27px;
+	}
+
+	.fullwidth
+	{
+		width: 100%;
+		height: 570px;
+		padding: 60px 30px;
+		min-width: 280px;
+		overflow-x: hidden;
+	}
+
+	.fullwidth .bodycontainer
+		{
+			margin: 0 auto;
+			width: 100%;
+			height: 200px; 
+			max-width: 1000px;
+			text-align: center;
+		}
+
+	#topcontainer h1
+	{
+		font-size: 34px;
+		line-height: 36px;
+		margin-top: 270px; 	
+	}
+
+		#topcontainer h1 span
+		{
+			font-size: 50px;
+			line-height: 50px;
+		}
+
+		.gold img {
+			height: 23%;
+			width: 38%;
+			margin-right: 11px;
+			}
+	
+		.learn img {
+			width: 156px;
+			height: 57px;
+			margin-top: 39px;
+		}
+
+	h2 {
+			font-size: 30px; 
+		}
+
+	p {
+			font-size: 13px; 
+		}
+
+	.story p {
+			margin-bottom: -30px; 
+		}
+
+		#countdown #countdowncont ul#countscript li
+		{
+			padding: 6px 0;
+		}
+		
+			#countdown #countdowncont ul#countscript li span
+			{
+				font-size: 62px;
+				line-height: 62px;
+			}
+	
+			#countdown #countdowncont ul#countscript li p
+			{
+				font-size: 16px;
+				line-height: 16px;
+			}
+			
+		#maincont #signupform
+		{
+			margin: 0 auto 20px auto;
+			width: 100%;
+		}
+		
+		#quotecont
+		{
+			padding: 5px 0;
+		}
+	
+		#daysleft {
+			font-size: 35px;
+		}
+	
+		.comingsoon h2 {
+			font-size: 50px; 
+		}
+	
+		#footercont .right-half {
+			position: initial;
+			height: 100%;
+			margin-left: 65%;
+			margin-top: -89px;
+			text-align: center;
+			color: white;
+			font-size: larger;
+			font-family: 'bebas_neuebold', sans-serif;
+		}
+		
+		#footercont #socialmedia ul li
+		{
+			margin: 0 5px;
+		}
+		
+			#footercont #socialmedia ul li a
+			{
+				font-size: 28px;
+			}
+	
+			.iframe-container {
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;
+				padding-top: 30px; 
+				overflow: hidden;
+				margin-top: 15%;
+			  }
 
 }
 

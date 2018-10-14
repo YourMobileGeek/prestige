@@ -1888,7 +1888,7 @@ and (orientation : portrait) {
 			height: 0;
 			padding-top: 30px; 
 			overflow: hidden;
-			margin-top: 76%;
+			margin-top: 50%; 
 		  }
 	
 }

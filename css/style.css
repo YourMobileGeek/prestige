@@ -376,7 +376,7 @@ h1, h2, h3
 #maincont
 {
 	color: #FFF;
-	margin-top: 3%;
+	margin-top: -1%;
 }
 
 	#maincont a
@@ -932,7 +932,7 @@ and (-webkit-min-device-pixel-ratio: 1)
 
 	#maincont {
 		color: #FFF;
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 	
 	h2 {
@@ -1764,7 +1764,7 @@ and (orientation : portrait) {
 	.fullwidth
 	{
 		width: 100%;
-		height: 710px;
+		height: 850px;
 		padding: 60px 30px;
 		min-width: 280px;
 		overflow-x: hidden;

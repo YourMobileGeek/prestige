@@ -487,6 +487,12 @@ h1, h2, h3
 			background: #1ABC9C;
 		}
 
+		video {
+			width: 100%    !important;
+			height: auto   !important;
+			margin-top: -45px;
+		  }
+
 		.iframe-container {
 			position: relative;
 			width: 100%;
